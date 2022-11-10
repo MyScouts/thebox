@@ -1,0 +1,42 @@
+:root {
+
+    /* ==== FONT DEFINE ====*/
+    --primary-font: montserrat;
+    --secondary-font: work_sans;
+
+    /* ==== COLOR DEFINE =====*/
+    --primary-color: #2947A9;
+    --secondary-color: #F9995D;
+    --neutral-900: #14171F;
+    --neutral-800: #292E3D;
+    --neutral-700: #3D445C;
+    --neutral-600: #525B7A;
+    --neutral-500: #667299;
+    --neutral-400: #858EAD;
+    --neutral-300: #A3AAC2;
+    --neutral-200: #C2C7D6;
+    --neutral-100: #E0E3EB;
+    --neutral-50: #F6F8F7;
+    --color-white: #FFFFFF;
+
+
+
+    /*==== GRID - media queries breakpoints ====*/
+    --xxs-min: 480px;
+    --xs-min: 768px;
+    --sm-min: 992px;
+    --md-min: 1200px;
+    --lg-min: 1600px;
+
+    /* SMALL MOBILE */
+    /* --xxs-max: (var(--xxs-min) - 1); */
+    /* MOBILE */
+    /* --xs-max: (var(--xs-min) - 1); */
+    /*Tablet*/
+    /* --sm-max: (var(--sm-min) - 1); */
+    /*Desktop*/
+    /* --md-max: (var(--md-min) - 1); */
+    /*Large Desktop*/
+    /* --lg-max: (var(--lg-min) - 1); */
+
+}

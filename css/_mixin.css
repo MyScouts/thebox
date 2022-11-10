@@ -1,0 +1,46 @@
+@mixin lg {
+    @media screen and (max-width: var(--lg-max)) {
+        @content;
+    }
+}
+
+/* desktop */
+@mixin md {
+    @media screen and (max-width: var(--md-max)) {
+        @content;
+    }
+}
+
+/* tablet */
+@mixin sm {
+    @media screen and (max-width: var(--sm-max)) {
+        @content;
+    }
+}
+
+/* mobile */
+@mixin xs {
+    @media screen and (max-width: var(--xs-max)) {
+        @content;
+    }
+}
+
+/* small mobile */
+@mixin xxs {
+    @media (max-width: var(--xxs-max)) {
+        @content;
+    }
+}
+
+/* Hide element */
+@mixin --hide {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+@mixin --show {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
