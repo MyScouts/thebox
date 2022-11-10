@@ -1,7 +1,7 @@
-@import url("_variable.css");
-@import url("_font.css");
-@import url("_mixin.css");
-@import url("_reset.css");
+@import url("variable.css");
+@import url("font.css");
+@import url("mixin.css");
+@import url("reset.css");
 @import url("base.css");
 @import url('menu.css');
 @import url("footer.css");
