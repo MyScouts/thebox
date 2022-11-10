@@ -61,6 +61,11 @@
     padding: 2rem;
 }
 
+.features .item-feature img{
+    width: 40px;
+    height: auto;
+}
+
 .features .item-feature h6 {
     font-size: 2rem;
     margin-top: 1.5rem;

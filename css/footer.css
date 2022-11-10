@@ -60,7 +60,7 @@ footer .information .right>div .title {
 }
 
 footer .information .right .social {
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 footer .information .right .social-list {
@@ -79,7 +79,7 @@ footer .information .right .social-list div {
 
 @media only screen and (max-width: 768px) {
     footer .information {
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 5rem;
     }
 }
