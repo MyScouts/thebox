@@ -24,17 +24,17 @@
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 
             <ul class="nav-menu">
-                <li class="item-menu active">
-                    <a href="#">Home</a>
+                <li class="item-menu active home">
+                    <a href="#home">Home</a>
                 </li>
-                <li class="item-menu">
-                    <a href="#">About Us</a>
+                <li class="item-menu about-us">
+                    <a href="#about-us">About Us</a>
                 </li>
-                <li class="item-menu">
-                    <a href="#">Projects</a>
+                <li class="item-menu projects">
+                    <a href="#projects">Projects</a>
                 </li>
-                <li class="item-menu">
-                    <a href="#">Contact Us</a>
+                <li class="item-menu contact-us">
+                    <a href="#contact-us">Contact Us</a>
                 </li>
             </ul>
 
@@ -44,7 +44,7 @@
 
     <main>
 
-        <section class="hero">
+        <section class="hero" id="home">
             <div class="container">
                 <h2>Building things <br /> is our mission.</h2>
             </div>
@@ -76,7 +76,7 @@
             </div>
         </section>
 
-        <section class="page-section">
+        <section class="page-section" id="about-us">
             <div class="container feature-about_us">
                 <div class="background"></div>
                 <div class="content">
@@ -90,7 +90,7 @@
                         and
                         reliability when building in the U.S.
                     </p>
-                    <a href="#">More on Our History</a>
+                    <div><a href="#">More on Our History</a></div>
                 </div>
             </div>
         </section>
@@ -105,13 +105,13 @@
             </div>
         </section>
 
-        <section class="page-section feature-projects">
-            <div class="container" style="overflow: visible !important;">
-                <h6>Projects</h6>
+        <section class="page-section feature-projects" id="projects">
+            <div >
+                <h6 class="container">Projects</h6>
                 <!-- Slider main container -->
-                <div class="swiper project-sliders">
+                <div class="swiper project-sliders ">
                     <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
+                    <div class="swiper-wrapper ">
                         <!-- Slides -->
                         <div class="swiper-slide">
                             <div class="project-content">
@@ -123,8 +123,29 @@
 
                             </div>
                         </div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
+
+                        <div class="swiper-slide">
+                            <div class="project-content">
+                                <div>
+                                    <h6>Wish Stone Building</h6>
+                                    <p>2792Westheimer Rd. Santa Ana, Illinois</p>
+                                </div>
+                                <img src="./assets/images/project.png" alt="">
+
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="project-content">
+                                <div>
+                                    <h6>Wish Stone Building</h6>
+                                    <p>2792Westheimer Rd. Santa Ana, Illinois</p>
+                                </div>
+                                <img src="./assets/images/project.png" alt="">
+
+                            </div>
+                        </div>
+
                     </div>
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
@@ -132,7 +153,7 @@
         </section>
 
 
-        <section class="page-section feature-contact">
+        <section class="page-section feature-contact" id="contact-us">
             <div class="content">
                 <p class="title">How can we help you?</p>
                 <p class="description">

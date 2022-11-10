@@ -15,4 +15,20 @@ const swiper = new Swiper('.swiper', {
     },
 });
 
-const hamburgerElm = document.getElementsByClassName('hamburger-menu');
+const urlRegex = ['home', 'projects', 'contact-us', 'about-us'];
+window.onhashchange = function () {
+    const currentUrl = window.location.href;
+    urlRegex.forEach((regex) => {
+        if (currentUrl.includes(regex)) {
+            const activeMenu = document.getElementsByClassName('active')
+            for (let index = 0; index < activeMenu.length; index++) {
+                activeMenu[index].classList.remove('active');
+            }
+
+            const menuSelect = document.getElementsByClassName(regex);
+            if(menuSelect.length > 0){
+                menuSelect[0].classList.add('active');
+            }
+        }
+    });
+}
