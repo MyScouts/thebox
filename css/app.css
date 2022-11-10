@@ -180,7 +180,7 @@
 
 .feature-ads .content p {
     display: inline-block;
-    font-size: 1.5;
+    font-size: 1.5rem;
     margin-top: 2rem;
 }
 
@@ -204,6 +204,10 @@
         align-items: center;
         gap: 3rem;
         /* display: block; */
+    }
+
+    .feature-ads .content h6{
+        font-size: 2.5rem;
     }
 }
 
@@ -274,9 +278,17 @@
 
 @media only screen and (max-width: 767px) {
     .feature-projects .project-sliders {
-        margin-top: 2rem;
-        height: 400px;
         position: relative;
+        margin-top: 2rem;
+        height: 350px;
+    }
+
+    .project-sliders .project-content h6 {
+        font-size: 1.5rem;
+    }
+
+    .project-sliders .project-content p {
+        font-size: 1rem;
     }
 }
 

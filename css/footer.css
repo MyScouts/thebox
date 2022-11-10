@@ -82,4 +82,8 @@ footer .information .right .social-list div {
         flex-direction: column-reverse;
         gap: 5rem;
     }
+
+    footer .information .right .news-letter .form-group input{
+        width:100%;
+    }
 }
