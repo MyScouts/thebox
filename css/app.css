@@ -1,10 +1,10 @@
-@import url("./_variable.css");
-@import url("./_font.css");
-@import url("./_mixin.css");
-@import url("./_reset.css");
-@import url("./base.css");
-@import url('./menu.css');
-@import url("./footer.css");
+@import url("_variable.css");
+@import url("_font.css");
+@import url("_mixin.css");
+@import url("_reset.css");
+@import url("base.css");
+@import url('menu.css');
+@import url("footer.css");
 
 /* HERO */
 .hero {
